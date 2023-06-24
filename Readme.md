@@ -1,5 +1,7 @@
 # TypeQuiz
 
+[![Run Jest Tests](https://github.com/53845714nF/TypeQuiz/actions/workflows/tests.yml/badge.svg)](https://github.com/53845714nF/TypeQuiz/actions/workflows/tests.yml)
+
 ## Description
 
 This is a Quiz App implemented in React with TypeScript.
