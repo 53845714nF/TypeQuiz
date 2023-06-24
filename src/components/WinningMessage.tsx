@@ -1,11 +1,12 @@
-import { Alert } from '@mui/material';
+import {Alert} from '@mui/material';
 import React from 'react';
+
 interface WinningMessageProps {
     timerValue: number;
     score: number;
 }
 
-export const WinningMessage: React.FC<WinningMessageProps> = ({ timerValue, score }) => {
+export const WinningMessage: React.FC<WinningMessageProps> = ({timerValue, score}) => {
     function calculateWinningScore(time: number, score: number): string {
         const timeBonus = 1000 - time;
         const winningScore = timeBonus + score;
@@ -27,7 +28,7 @@ export const WinningMessage: React.FC<WinningMessageProps> = ({ timerValue, scor
 
     return (
         <>
-            <Alert severity="success" sx={{mt:3}}> {calculateWinningScore(timerValue, score)}</Alert>
+            <Alert severity="success" sx={{mt: 3}}> {calculateWinningScore(timerValue, score)}</Alert>
         </>
     );
 };

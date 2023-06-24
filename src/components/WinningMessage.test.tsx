@@ -1,5 +1,5 @@
-import { render, screen} from '@testing-library/react';
-import { WinningMessage } from './WinningMessage';
+import {render, screen} from '@testing-library/react';
+import {WinningMessage} from './WinningMessage';
 
 describe('Test the WinningMessage Component', () => {
     it('Test the WinningMessage Component at Looser Level', () => {
