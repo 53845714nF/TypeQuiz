@@ -1,4 +1,4 @@
-name: Docker Image for TypeQuiz
+name: Create Docker Image for TypeQuiz
 
 on:
   push:
