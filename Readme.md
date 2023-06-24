@@ -1,6 +1,6 @@
 # TypeQuiz
 
-[![Run Jest Tests](https://github.com/53845714nF/TypeQuiz/actions/workflows/tests.yml/badge.svg)](https://github.com/53845714nF/TypeQuiz/actions/workflows/tests.yml)
+[![Tests](https://github.com/53845714nF/TypeQuiz/actions/workflows/tests.yml/badge.svg)](https://github.com/53845714nF/TypeQuiz/actions/workflows/tests.yml)
 
 ## Description
 
@@ -18,14 +18,16 @@ but unfortunately that was only CRUD operation, so I started this new app.
 - Results summary at the end
 
 ## Installation
-
+### For Developers
     - Clone the repository
     - Run `npm install` to install all dependencies
     - Run `npm run dev` to start the app
+    - Open the app in your browser (http://localhost:5173/) and start the quiz.
 
-## Usage
-
-Open the app in your browser (http://localhost:5173/) and start the quiz.
+### With Docker
+```bash
+sudo docker run -p 80:80  ghcr.io/53845714nf/typequiz/typeqiz:latest
+```
 
 ## Technologies Used
 
