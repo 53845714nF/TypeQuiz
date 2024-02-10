@@ -6,7 +6,7 @@ on:
 
 env:
   REGISTRY: ghcr.io
-  IMAGE_NAME: typeqiz
+  IMAGE_NAME: typequiz
 
 jobs:
   build-and-push-image:
