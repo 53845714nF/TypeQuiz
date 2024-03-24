@@ -6,7 +6,7 @@
 
 This is a Quiz App implemented in React with TypeScript.
 This project is part of the Typescript module in my 4th semester of computer science.
-Originally I wanted to build an [app to manage certificates for Homelabs](https://github.com/53845714nF/veritas),
+Originally I wanted to build an app to manage certificates for Homelabs,
 but unfortunately that was only CRUD operation, so I started this new app.
 
 ## Features
