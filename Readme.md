@@ -1,6 +1,6 @@
 # TypeQuiz
 
-[![Tests](https://github.com/53845714nF/TypeQuiz/actions/workflows/tests.yml/badge.svg)](https://github.com/53845714nF/TypeQuiz/actions/workflows/tests.yml)
+[![Testing](https://github.com/53845714nF/TypeQuiz/actions/workflows/testing.yml/badge.svg)](https://github.com/53845714nF/TypeQuiz/actions/workflows/testing.yml)
 
 ## Description
 
