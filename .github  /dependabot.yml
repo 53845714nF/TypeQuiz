@@ -5,3 +5,8 @@ updates:
     schedule:
       interval: "weekly"
     vendor: true
+
+  - package-ecosystem: "docker"
+    directory: "/"
+    schedule:
+      interval: "weekly"
